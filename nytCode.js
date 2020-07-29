@@ -30,6 +30,7 @@ function buildQueryURL() {
 
   // Logging the URL so we have access to it for troubleshooting
   console.log('---------------\nURL: ' + queryURL + '\n---------------');
+  console.log('josh, once you update this file you can remove this line');
   console.log(queryURL + $.param(queryParams));
   return queryURL + $.param(queryParams);
 }
